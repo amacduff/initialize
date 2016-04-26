@@ -1,9 +1,18 @@
 /* Nav Styles */
 footer {
   background: #333333;
+  box-sizing: border-box;
   color: #FFFFFF;
   font-family: sans-serif;
+  height: 3rem;
   padding: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  float: right;
 }
 footer a {
   color: #FFFFFF;

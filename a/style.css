@@ -51,12 +51,15 @@ table {
 }
 
 /* Variables */
-/* Main Styles */
 main {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80%;
+}
+
+.initial {
+  font-family: 'Bevan', serif;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -48,14 +48,13 @@ table {
 
 @import url(https://fonts.googleapis.com/css?family=Bevan);
 
-$font-initial: 'Bevan', serif;
-
-
-/* Main Styles */
-
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80%;
+}
+
+.initial {
+	font-family: 'Bevan', serif;
 }

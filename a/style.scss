@@ -48,15 +48,23 @@ table {
 
 @import url(https://fonts.googleapis.com/css?family=Bevan);
 
-main {
-    position: relative;
+html,
+body {
+	height: 100%;
 }
 
 .alpha {
+	height: 100%;
+    position: relative;
+}
+
+#initial-a {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	text-align: center;
 	transform: translate(-50%, -50%);
+	width: 100%;
 }
 
 #initial-a {

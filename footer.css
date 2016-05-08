@@ -2,9 +2,8 @@
 footer {
   background: #333333;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #999999;
   font-family: sans-serif;
-  height: 3rem;
   padding: 1rem;
   position: fixed;
   left: 0;
@@ -18,6 +17,9 @@ footer a {
   color: #FFFFFF;
   text-decoration: none;
 }
+footer a:hover {
+  color: #999999;
+}
 footer p,
 footer ul {
   margin: 0;
@@ -25,6 +27,7 @@ footer ul {
 }
 footer ul {
   list-style-type: none;
+  width: 60%;
 }
 footer ul li {
   display: inline;

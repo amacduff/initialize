@@ -3,9 +3,8 @@
 footer {
     background: #333333;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #999999;
     font-family: sans-serif;
-    height: 3rem;
     padding: 1rem;
     position: fixed;
     left: 0;
@@ -19,6 +18,11 @@ footer {
     a {
         color: #FFFFFF;
         text-decoration: none;
+
+        &:hover {
+            color: #999999;
+        }
+
     }
 
     p,
@@ -29,6 +33,7 @@ footer {
 
     ul {
         list-style-type: none;
+        width: 60%;
 
         li {
             display: inline;

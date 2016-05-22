@@ -8,3 +8,5 @@ Once you've been nominated and added to the contributors list, simply choose the
 - Only selectable text (no images for the dropcap)
 - Capitals Only
 - Feel free to upload any assets you want to use, but try to keep file sizes down
+- Save all stylesheets and assets in your letter's folder
+- Please do not override footer styling

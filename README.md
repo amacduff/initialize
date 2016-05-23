@@ -10,3 +10,6 @@ Once you've been nominated and added to the contributors list, simply choose the
 - Feel free to upload any assets you want to use, but try to keep file sizes down
 - Save all stylesheets and assets in your letter's folder
 - Please do not override footer styling
+
+## Also
+Don't forget to replace your name in the footer! Also, feel free to link to your portfolio or whatever.

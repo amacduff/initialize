@@ -62,15 +62,19 @@ body {
   position: relative;
 }
 
+#details,
 #initial-a {
-  color: #D64F35;
-  font-family: 'Bevan', serif;
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#initial-a {
+  color: #D64F35;
+  font-family: 'Bevan', serif;
   text-align: center;
   text-shadow: 1px 1px 0 #FFEED8, 2px 2px 0 #FFEED8, 3px 3px 0 #FFEED8, 4px 4px 0 #FFEED8, 5px 5px 0 #FFEED8, 6px 6px 0 #3B2619, 7px 7px 0 #3B2619, 8px 8px 0 #3B2619, 9px 9px 0 #3B2619, 10px 10px 0 #3B2619, 11px 11px 0 #3B2619, 12px 12px 0 #3B2619, 13px 13px 0 #3B2619, 14px 14px 0 #3B2619, 15px 15px 0 #3B2619, 16px 16px 0 #3B2619;
-  transform: translate(-50%, -50%);
   width: 100%;
 }
 

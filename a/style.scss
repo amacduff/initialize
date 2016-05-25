@@ -59,12 +59,17 @@ body {
     position: relative;
 }
 
+#details,
 #initial-a {
-	color: #D64F35;
-	font-family: 'Bevan', serif;
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#initial-a {
+	color: #D64F35;
+	font-family: 'Bevan', serif;
 	text-align: center;
 	text-shadow:
 		1px 1px 0 #FFEED8,
@@ -83,6 +88,5 @@ body {
 		14px 14px 0 #3B2619,
 		15px 15px 0 #3B2619,
 		16px 16px 0 #3B2619;
-	transform: translate(-50%, -50%);
 	width: 100%;
 }
